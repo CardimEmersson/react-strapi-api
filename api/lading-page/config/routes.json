@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/lading-page",
+      "handler": "lading-page.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/lading-page",
+      "handler": "lading-page.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/lading-page",
+      "handler": "lading-page.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
